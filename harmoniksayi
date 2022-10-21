@@ -1,0 +1,32 @@
+    import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+
+            double nSayisi;
+            double sonuc=0;
+            System.out.println("n'sayisini giriniz");
+            Scanner girdi=new Scanner(System.in);
+            nSayisi= girdi.nextDouble();
+
+            for (double i=1; i<=nSayisi; i++){
+
+                sonuc+=(1/i);
+
+
+
+
+            }System.out.println(sonuc);
+
+
+
+
+
+
+                }
+            }
+
+
+
+
+
